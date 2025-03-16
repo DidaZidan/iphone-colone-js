@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system;
+    color: white;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 40px;
+    margin-block: 10px;
+}
+header .photo-logo img{
+    width: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+header .photo-logo img:hover{
+    scale: 1.05;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin-right: 30px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: rgb(173, 173, 173);
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 90px;
+    margin-top: 70px;
+}
+section .text h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+section .text p{
+    width: 45%;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+section .text button{
+    font-size: 1.01rem;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    padding: 5px 10px; 
+    border-radius: 50px;
+    border: solid black 1px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+section .text button:hover{
+background-color: transparent;
+color: white;
+border: white 1px solid;
+}
+section .picture img{
+    width: 200px;
+}
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+footer .images img{
+    width: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+footer .images img:hover {
+    scale: 1.2;
+}
